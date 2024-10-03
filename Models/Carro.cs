@@ -14,7 +14,7 @@ public class Carro
     public int Kilometragem { get; set; }
 
     //método
-    public void Partida()
+    public void Partida(string Nome, int Kilometragem)
     {
         // o WriteLine é um método da classe Console, e estamos passando um parametro ou argumento.
         Console.WriteLine($"O {Nome} deu partida com {Kilometragem} kilometros rodados !");
