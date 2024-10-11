@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Security.Cryptography.X509Certificates;
 using ExemploFundamentos.Models;
 
 // instaciando a classe
@@ -48,3 +49,14 @@ else
 {
      Console.WriteLine("Venda negada! \n Não temos a quantidade suficiente em estoque!");
 }
+
+
+// ------------------- Laço de repetição -------------------
+
+int numeroBase = 5;
+
+for(int contador = 0; contador <= 10; contador++)
+{
+    Console.WriteLine($"{numeroBase} X {contador} = {numeroBase} * {contador}" );
+}
+
