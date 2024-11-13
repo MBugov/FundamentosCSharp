@@ -151,7 +151,7 @@ class Pessoa
 }
 ```
 
-## 7. Comandos CLI Dotnet
+## 8. Comandos CLI Dotnet
 
 New Solution: ```dotnet new sln -n <Solution-Name>```
 
@@ -166,4 +166,7 @@ Add Project to Solution: ```dotnet sln <Solution-Name> add <Path-To-Project>```
 Reference project: ```dotnet add reference <PROJECT_PATH_REFERENCE>```
 
 Run Project: ```dotnet run -p <Project-Name>```
+
+
+
 
