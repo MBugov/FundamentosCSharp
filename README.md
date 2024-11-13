@@ -154,9 +154,14 @@ class Pessoa
 ## 7. Comandos CLI Dotnet
 
 New Solution: ```dotnet new sln -n <Solution-Name>```
+
 List avaliable new commands: ```dotnet new -h```
+
 List avaliable project types: ```dotnet new -l```
+
 New Project: ```dotnet new <Project-Type> -o <Project-Name>```
+
 Add Project to Solution: ```dotnet sln <Solution-Name> add <Path-To-Project>```
+
 Run Project: ```dotnet run -p <Project-Name>```
 
