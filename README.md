@@ -163,5 +163,7 @@ New Project: ```dotnet new <Project-Type> -o <Project-Name>```
 
 Add Project to Solution: ```dotnet sln <Solution-Name> add <Path-To-Project>```
 
+Reference project: ```dotnet add reference <PROJECT_PATH_REFERENCE>```
+
 Run Project: ```dotnet run -p <Project-Name>```
 
